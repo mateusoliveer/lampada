@@ -3,6 +3,7 @@ header, main {
     flex-direction: column;
     align-items: center;
     color: aliceblue;
+    font: bold;
 
 }
 
