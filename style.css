@@ -8,13 +8,30 @@ header, main {
 
 
 body {
-    background-color: black;
+    background-image: url(./img/fundo-laranja-com-borda-dourada.jpg);
     
 }
 
+
+
 button {
-    width: 80px;
     color: brown;
     padding: 7px;
-
-}
+    position: relative;
+    left: 33%;
+    transform: translateX(-50%);
+        color: rgb(0, 0, 0); /* Cor do texto do botão */
+        padding: 12px 24px; /* Espaçamento interno do botão */
+        border: none; /* Remove a borda do botão */
+        border-radius: 5px; /* Borda arredondada para o botão */
+        cursor: pointer; /* Altera o cursor para um ponteiro quando passa sobre o botão */
+        transition: background-color 0.3s ease, transform 0.2s ease; /* Adiciona efeitos de transição suaves */
+    
+        /* Sombra para criar uma sensação de profundidade */
+        box-shadow: 0px 4px 8px rgb(214, 200, 1);
+    }
+    
+    button:hover {
+        background-color: #bb4d04; /* Cor de fundo alterada para o hover */
+    }
+    
